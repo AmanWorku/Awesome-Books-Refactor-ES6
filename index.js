@@ -5,8 +5,8 @@ import {
   first, second, third, body0, bodyT, bodyS,
 } from './modules/pageDynamics.js';
 import { DateTime } from './modules/luxon.js';
-import { UI } from './modules/classUI.js';
-import { Book } from './modules/classBook.js';
+import UI from './modules/classUI.js';
+import Book from './modules/classBook.js';
 
 first.addEventListener('click', () => {
   body0.style.display = 'block';
