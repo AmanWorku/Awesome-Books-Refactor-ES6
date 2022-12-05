@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Book</title>
+</head>
+<body>
+<nav class="navigation">
+    <div class="logo"><p>Awesome Books</p></div>
+    <div class="links">
+        <button class="list"><a href="#one" id="one">List</a></button>
+        <button class="add-new"><a href="#two" id="two">Add New</a></button>
+        <button class="contact"><a href="#three" id="three">Contact</a> </button>
+    </div>
+</nav>
+<p class="date"></p>
+<section id="one" class="body-one">
+    <div class="container">
+        <h1>All awesome books</h1>
+        <table class="table">
+            <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+        <hr>
+    </div>
+</section>
+<section id="two" class="body-two">
+    <div class="container">
+        <div class="form">
+            <h1>Add a new book</h1>
+            <form action="" id="book-form">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" class="form-control" required>
+                </div>
+                <input type="submit" id="add-btn" value="Add">
+            </form>
+        </div>
+    </div>
+</section>
+<section id="three" class="body-three">
+    <div class="contact">
+        <h1>Contact Information</h1>
+        <p>Do you have questions or do you want to say "Hello"?<br>You can reach out to us!</p>
+        <ul>
+            <li>Our e-mail: abc@gmial.com</li>
+            <li>Our phone: +123456789</li>
+            <li>Our address: Streetname 22, 85073 City, Country</li>
+        </ul>
+    </div>
+</section>
+<footer>
+    <p>&copy; Copyrights Reserved</p>
+</footer>
+
+<script type="module" src="index.js"></script>
+</body>
+</html>

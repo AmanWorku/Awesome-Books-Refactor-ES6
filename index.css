@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: saddlebrown;
+}
+
+.body-one {
+    display: none;
+}
+
+.body-two {
+    display: block;
+}
+
+.body-three {
+    display: none;
+}
+
+.logo p {
+    color: saddlebrown;
+    font-size: 1.2em;
+}
+
+.navigation {
+    margin-top: 20px;
+    padding: 10px 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: saddlebrown;
+}
+
+.navigation button {
+    min-width: 120px;
+    background: none;
+    border: 2px solid white;
+    color: saddlebrown;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 5px 15px;
+    border-radius: 7px;
+}
+
+.table button {
+    align-self: flex-end;
+    margin-left: 100px;
+    background: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+.links button a {
+    color: saddlebrown;
+}
+
+.date{
+    width: 80%;
+    padding: 20px 20px;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.table button a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+}
+
+.links button a:hover {
+    color: white;
+}
+
+.navigation button:hover {
+    background-color: saddlebrown;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.navigation .active {
+    border: 2px solid saddlebrown;
+    color: white;
+    background-color: #642f08;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 20%;
+    background-color: white;
+    display: flex;
+    color: saddlebrown;
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    font-size: 1.4em;
+    color: white;
+    gap: 20px;
+}
+
+.table {
+    margin: auto;
+    display: flex;
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+
+.table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.table tbody:nth-child(odd) {
+    background-color: #642f08;
+}
+
+.table button a:hover,
+.table button:hover {
+    background-color: white;
+    color: saddlebrown;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+hr {
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+}
+
+.form input[type=text] {
+    height: 25px;
+    border: 2px solid white;
+    background: none;
+    margin: 10px;
+    color: white;
+    font-size: 19px;
+    padding: 5px;
+}
+
+#book-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#add-btn {
+    align-self: flex-end;
+    padding: 10px 30px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+#add-btn:hover {
+    background: white;
+    color: saddlebrown;
+    transition: 0.4s ease;
+}
